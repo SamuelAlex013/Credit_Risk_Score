@@ -7,7 +7,7 @@ This project implements a machine learning-based risk scoring system for Ethereu
 - Assign a risk score (0-1000) to each wallet using a trained ML model
 - Output results in a CSV format
 
-## Assignment Prompt
+## Assignment
 Given a list of wallet addresses, your tasks are:
 1. **Fetch Transaction History:** Retrieve transaction data for each wallet from Compound V2 or V3 protocol
 2. **Data Preparation:** Organize and preprocess the data to create meaningful features for risk analysis
@@ -24,7 +24,7 @@ Given a list of wallet addresses, your tasks are:
   - Scoring method
   - Justification of risk indicators
 
-## Solution Structure
+## Structure
 
 ### Data Collection
 - **Source:** On-chain transaction data is fetched for each wallet address, focusing on interactions with Compound protocol contracts (V2/V3 markets and Comptroller).
