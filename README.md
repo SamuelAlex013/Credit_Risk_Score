@@ -89,6 +89,3 @@ pip install -r requirements.txt
 - Only Compound protocol DeFi activity is considered for risk scoring
 - Wallets with no Compound transactions are penalized with higher risk
 - The ML model is trained on synthetic data for robust, realistic scoring
-
-## License
-MIT
