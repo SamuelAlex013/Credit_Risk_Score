@@ -67,13 +67,9 @@ Given a list of wallet addresses, your tasks are:
 2. Ensure `Wallet.csv` contains a `wallet_id` column with all wallet addresses
 3. Run the script:
    ```bash
-   python wallet_risk_analyzer_standalone.py
+   python wallet_risk_analyzer.py
    ```
 4. Results will be in `wallet_risk_scores.csv`
-
-## Requirements
-- Python 3.8+
-- pandas, numpy, scikit-learn
 
 Install dependencies:
 ```bash

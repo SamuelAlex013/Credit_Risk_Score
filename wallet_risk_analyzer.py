@@ -251,8 +251,8 @@ def train_model():
     model = Pipeline([
         ('scaler', StandardScaler()),
         ('regressor', RandomForestRegressor(
-            n_estimators=200,  # More trees
-            max_depth=15,      # Deeper trees
+            n_estimators=200,  
+            max_depth=15,     
             min_samples_split=5,
             min_samples_leaf=2,
             random_state=42,
